@@ -10,7 +10,10 @@ python process_monitor.py [OPTIONS]
 
 Options:
 
---version           show program's version number and exit
---help              show this help message and exit
---name=IMAGENAME    target application to monitor
---log               enable logging
+```html
+<p>--version           show program's version number and exit</p>
+<p>--help              show this help message and exit</p>
+<p>--name=IMAGENAME    target application to monitor</p>
+<p>--log               enable logging</p>
+```
+
