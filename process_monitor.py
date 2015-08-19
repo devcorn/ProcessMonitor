@@ -113,7 +113,7 @@ if __name__ == "__main__":
     parser.add_option("-n", "--name",
                   action="store",
                   dest="imagename",
-                  default="TmaApplication",
+                  default="",
                   help="target application to monitor",)
     parser.add_option("-l", "--log",
                   action="store_true",
@@ -124,6 +124,10 @@ if __name__ == "__main__":
 
     imageName   = options.imagename.strip(".exe")
     log_enabled = options.log_flag
+
+    if imageName == "":
+        print "Please specify a valid application name! Use python '%s --help' for more information." % (sys.argv[0])
+        sys.exit(0)
 
     if log_enabled:
         homeDir = expanduser("~")                        #Get users homedir for logging purposes.
