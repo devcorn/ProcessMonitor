@@ -6,11 +6,11 @@ A usefull autokill script for regularly hanging programs.
 
 # Usage
 
+```html
 python process_monitor.py [OPTIONS]
 
 Options:
 
-```html
 --version           show program's version number and exit
 --help              show this help message and exit
 --name=IMAGENAME    target application to monitor
