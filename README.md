@@ -1,8 +1,8 @@
 # ProcessMonitor
 
-A python script for monitoring a specified process. If the process hangs the tools responsibility is to try to confirm that its hanging and kill it if necessary.
+A python script for monitoring a specified process. If the process hangs the tools tries to terminate the target application.
 
-A usefull autokill script for regularly hanging programs.
+A useful autokill script for regularly hanging programs.
 
 # Usage
 
